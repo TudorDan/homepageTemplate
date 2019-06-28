@@ -11,60 +11,61 @@
 		<!-- Bootstrap CSS -->
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<!-- Navigation (Bootstrap) -->
 		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand" href="#">
-		  	<img src="img/brain.jpg" alt="Brain Image">
+		  <a class="navbar-brand mr-auto" href="#">
+		  	<img src="img/brain.png" alt="Brain Image">
 		  </a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
+		    <ul class="navbar-nav mx-auto">
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">TRAINING</a>
+		        <a class="nav-link" href="#">TRAINING</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">EVALUARE</a>
+		        <a class="nav-link" href="#">EVALUARE</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">NEUROȘTIINȚE</a>
+		        <a class="nav-link" href="#">NEUROȘTIINȚE</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">BRAINFITNESS</a>
+		        <a class="nav-link" href="#">BRAINFITNESS</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">DESPRE NOI</a>
+		        <a class="nav-link" href="#">DESPRE NOI</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">NOUTĂȚI</a>
+		        <a class="nav-link" href="#">NOUTĂȚI</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">CONTACT</a>
+		        <a class="nav-link" href="#">CONTACT</a>
 		      </li>
-		      <li class="nav-item">
+		  </ul>
+		  <ul class="navbar-nav ml-auto">
+		  	<li class="nav-item">
 		        <a class="nav-link" href="#">LOGIN</a>
 		      </li>
 		      <li class="nav-item">
 		      	<a class="nav-link" href="#">
-		      		<i class='fab fa-facebook-square' style='font-size:24px;color:#3C599F;'></i>
+		      		<i class='fab fa-facebook-square'></i>
 		      	</a>
 		      </li>
 		      <li class="nav-item">
 		      	<a class="nav-link" href="#">
-		      		<i class='fab fa-linkedin' style='font-size:24px;color:#3F919C;'></i>
+		      		<i class='fab fa-linkedin'></i>
 		      	</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link h6" href="#">EN</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">| RO</a>
+		        <p>
+		        	<a class="nav-link active" href="#">EN</a>|<a class="nav-link" href="#">RO</a>
+		        </p>
 		      </li>
 		  	</ul>
 		  </div>
@@ -110,42 +111,370 @@
 		  </div>
 		</div>
 
-		<!-- Two Containers (Bootstrap) -->
+		<!-- Upper Containers (Bootstrap) -->
 		<div class="container">
-		  <div class="row justify-content-around mt-4">
-		    <div class="col-2 col-md-6">
+
+		  <div class="row mt-4">
+		    <div class="col-md text-center">
 		      <img src="img/decor.jpg" alt="Decoration Image">
-		    </div>
-		    <div class="col-2 col-md-6">
-		      <img src="img/decor.jpg" alt="Decoration Image">
-		    </div>
-		  </div>
-		  <div class="row justify-content-around mt-4">
-		    <div class="col-4 col-md-6">
-		      <h4>PROVOCĂRI</h4>
-		      <ul class="list-group list-group-flush">
+		      <h1>PROVOCĂRI</h1>
+		      <ul class="details">
 				<li>Vrei să angajezi oamenii cei mai potriviți?</li>
 				<li>Vrei să măsori potențialul echipei tale?</li>
 				<li>Vrei să obții rezultatele cele mai bune?</li>
 			  </ul>
 		    </div>
-		    <div class="col-4 col-md-6">
-		      <h4>CU BRAINPERFORM POȚI SĂ</h4>
-		      <ul class="list-group list-group-flush">
+		    <div class="col-md text-center">
+		      <img src="img/decor.jpg" alt="Decoration Image">
+		       <h1>CU BRAINPERFORM POȚI SĂ</h1>
+		      <ul class="details">
 				<li>evaluezi competențele cu obiectivitate neuroștiințifică</li>
 				<li>decodifici nivelul real al competențelor angajaților</li>
 				<li>crești performanța, productivitatea și motivația oamenilor</li>
 			  </ul>
 		    </div>
 		  </div>
+
 		  <div class="row justify-content-around">
-		    <div class="col-6 mt-4">
-		      <img src="img/firstpic.jpg" alt="Decoration Image">
+		    <div class="col-md-4 text-center training mt-4 mb-4">
+		     <h2>BRAINPERFORM TRAINING</h2>
+		     <p>Inovare și performanță</p>
 		    </div>
-		    <div class="col-6 mt-4">
-		      <img src="img/secondpic.jpg" alt="Decoration Image">
+		    <div class="col-md-4 text-center evaluare mt-4 mb-4">
+		      <h2>BRAINPERFORM TRAINING</h2>
+		     <p>Inovare și performanță</p>
 		    </div>
 		  </div>
+
+  		  <div class="row mt-4 justify-content-around">
+		    <div class="text-center">
+		      <img src="img/decor.jpg" alt="Decoration Image">
+		      <h1>SOLUȚII DE AVANGARDĂ ÎN HR</h1>
+		      <p>Unlock potential and drive motivation</p>
+		    </div>
+		  </div>
+
+		</div>
+
+		<!-- Cards (Bootstrap) -->
+		<div class="row justify-content-around">
+
+		  <div class="col-md-4 col-lg-3 mt-4">
+			<div class="card text-center">
+			  <img src="img/iconone.svg" class="card-img-top mx-auto" alt="Neuro Image">
+			  <div class="card-body">
+				<h5 class="card-title">NEUROȘTIINȚE</h5>
+				<p class="card-text">Obiectivitate și precizie în evaluare. Instrumente validate științific în training.</p>
+				<a href="#" class="card-link">MAI MULT</a>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 col-lg-3 mt-4">
+			<div class="card text-center">
+			  <img src="img/icontwo.svg" class="card-img-top mx-auto" alt="Neuro Image">
+			  <div class="card-body">
+				<h5 class="card-title">GAMIFICATION</h5>
+				<p class="card-text">Elementele de jocuri adaugă valoare soluțiilor BrainPerform.</p>
+				<a href="#" class="card-link">MAI MULT</a>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4 col-lg-3 mt-4">
+			<div class="card text-center">
+			  <img src="img/iconthree.svg" class="card-img-top mx-auto" alt="Neuro Image">
+			  <div class="card-body">
+				<h5 class="card-title">BLENDED LEARNING</h5>
+				<p class="card-text">Versatilitatea canalelor de comunicare sporește receptivitatea.</p>
+				<a href="#" class="card-link">MAI MULT</a>
+			  </div>
+			</div>
+		  </div>
+
+		</div>
+
+
+		<div class="container">
+		  <div class="row mt-5 justify-content-around">
+		    <div class="text-center">
+		      <img src="img/decor.jpg" alt="Decoration Image">
+		      <h1>CLIENTS</h1>
+		    </div>
+		  </div>
+		</div>
+		<!-- Navs (Bootstrap)-->
+		<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+		  <li class="nav-item">
+		    <a class="nav-link active" id="telecom-tab" data-toggle="tab" href="#telecom" role="tab" aria-controls="telecom" aria-selected="true">TELECOM</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="financial-tab" data-toggle="tab" href="#financial" role="tab" aria-controls="financial" aria-selected="false">FINANCIAL SERVICES</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="fmcg-tab" data-toggle="tab" href="#fmcg" role="tab" aria-controls="fmcg" aria-selected="false">FMCG</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="manufacturing-tab" data-toggle="tab" href="#manufacturing" role="tab" aria-controls="manufacturing" aria-selected="false">MANUFACTURING</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="energy-tab" data-toggle="tab" href="#energy" role="tab" aria-controls="energy" aria-selected="false">ENERGY</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="pharma-tab" data-toggle="tab" href="#pharma" role="tab" aria-controls="pharma" aria-selected="false">PHARMA</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="auto-tab" data-toggle="tab" href="#auto" role="tab" aria-controls="auto" aria-selected="false">AUTO</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="food-tab" data-toggle="tab" href="#food" role="tab" aria-controls="food" aria-selected="false">FOOD</a>
+		  </li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		  <div class="tab-pane fade show active" id="telecom" role="tabpanel" aria-labelledby="telecom-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/orange.jpg" alt="Orange Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/zapp.jpg" alt="Zapp Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/ericsson.jpg" alt="Ericsson Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/upc.jpg" alt="Upc Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="financial" role="tabpanel" aria-labelledby="financial-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/boa.svg" alt="Bank of America Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="fmcg" role="tabpanel" aria-labelledby="fmcg-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/nestle.svg" alt="Nestle Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/pepsi.svg" alt="Pepsi Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/cocacola.svg" alt="Coca-Cola Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="manufacturing" role="tabpanel" aria-labelledby="manufacturing-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/samsung.svg" alt="Samsung Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/generalelectric.svg" title="General Electric" alt="General Electric Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="energy" role="tabpanel" aria-labelledby="energy-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/exxonmobil.svg" alt="Exxon Mobil Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/shell.svg" alt="Royal Dutch Shell Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="pharma" role="tabpanel" aria-labelledby="pharma-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/cardinalhealth.svg" alt="Cardinal Health Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="auto" role="tabpanel" aria-labelledby="auto-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/daimler.svg" alt="Daimler AG Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/honda.svg" alt="Honda Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="food" role="tabpanel" aria-labelledby="food-tab">
+		  	<div class="container">
+		  	  <div class="row mx-auto">
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/kfc.svg" alt="KFC Logo">
+		  			</a>
+		  	  	</div>
+		  	  	<div class="col-md mt-4">
+		  	  		<a class="navbar-brand" href="#">
+		  				<img src="img/bugerking.svg" alt="Burger King Logo">
+		  			</a>
+		  	  	</div>
+		  	  </div>
+		  	</div>
+		  </div>
+		</div>
+		<hr>
+
+		<!-- Lower Containers (Bootstrap) -->
+		<div class="container">
+
+		  <div class="row mt-5 justify-content-around">
+		    <div class="text-center">
+		      <img src="img/decor.jpg" alt="Decoration Image">
+		      <h1>BCR FILLS 3 ESSENTIAL MANAGEMENT POSITIONS<br>USING <span class="under">BRAINPERFORM</span></h1>
+		    </div>
+		  </div>
+
+		  <div class="row">
+		  	<div class="col-md-4 mt-5">
+		    	<img src="img/portrait.jpg" alt="Portrait image">
+		    </div>
+		    <div class="col-md-8 mt-5">
+		      <p>
+		      	"BrainPerform was an extremely helpful tool for our talent management project. We were aiming to fill in 3 management positions by identifing the candidates with the highest degree development on several crucial skills, as well as their training needs. Based on the results, we were able to structure an effective development plan, specifically tailored on key competences. I particularly appreciated the objectivity of the tool, and I would definitely use it again.<br><br>
+				<em>Gabriel Năstase</em><br>
+				<b>HR Business Partner and Talent Manager at BCR</b>
+		      </p>
+		      <img src="img/bcr.jpg" alt="BCR Logo">
+		    </div>
+		  </div>
+
+		</div>
+		<hr>
+
+		<div class="container-fluid mt-5 footer">
+
+		  <div class="row justify-content-around">
+		    <div class="text-center">
+		      <img src="img/decoralb.jpg" alt="White Decoration Image">
+		      <h1>CONTACT</h1>
+		    </div>
+		  </div>
+
+		  <div class="row justify-content-around">
+		  	<div class="col-md-4 mt-5">
+		  		<h6>OFFICE</h6>
+		  		<p>4-10 Muntii Tatra Street, 4 floor, 1st District, Bucharest, CP 011022 Phone / fax: 004 021 31 00 415</p>
+		  	</div>
+		  	<div class="col-md-4 mt-5">
+		  		<h6>SUBSCRIBE TO NEWSLETTER</h6>
+		  		<div class="input-group">
+				  <input type="text" class="form-control" placeholder="Write your e-mail address" aria-label="Subscriber's email address" aria-describedby="button-addon">
+				  <div class="input-group-append">
+				    <button class="btn btn-outline-info" type="button" id="button-addon">
+				    	<i class="fas fa-chevron-right"></i>
+				    </button>
+				  </div>
+				</div>
+		  	</div>
+		  </div>
+
+		  <!-- Footer Navigation (Bootstrap) -->
+		  <nav class="navbar navbar-expand-lg navbar-light mt-5 footernav">
+		    <a class="navbar-brand mr-auto" href="#">
+		  	  <img src="img/brain.png" alt="Brain Image">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav mx-auto">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">TRAINING</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">EVALUARE</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="#">NEUROȘTIINȚE</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="#">BRAINFITNESS</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="#">DESPRE NOI</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="#">NOUTĂȚI</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" href="#">CONTACT</a>
+			    </li>
+		      </ul>
+		      <ul class="navbar-nav ml-auto">
+		  	    <li class="nav-item">
+		          <a class="nav-link" href="#">LOGIN</a>
+		        </li>
+		        <li class="nav-item">
+		      	  <a class="nav-link" href="#">
+		      		<i class='fab fa-facebook-square'></i>
+		      	  </a>
+		        </li>
+		        <li class="nav-item">
+		      	  <a class="nav-link" href="#">
+		      		<i class='fab fa-linkedin'></i>
+		      	  </a>
+		        </li>
+		        <li class="nav-item">
+		          <p>
+		        	<a class="nav-link active" href="#">EN</a>|<a class="nav-link" href="#">RO</a>
+		          </p>
+		        </li>
+		  	  </ul>
+		    </div>
+		  </nav>
+
 		</div>
 
 		<!-- Optional JavaScript -->
