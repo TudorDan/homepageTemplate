@@ -84,6 +84,7 @@ h1 {
     padding-top: 80px;
     padding-bottom: 89px;
     background-color: white;
+    transition: 1s;
 }
 
 /*Cards*/
